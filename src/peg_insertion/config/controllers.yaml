@@ -20,56 +20,59 @@ joint_trajectory_controller:
       - wrist_1_joint
       - wrist_2_joint
       - wrist_3_joint
+
     command_interfaces:
       - position
+
     state_interfaces:
       - position
       - velocity
+
     state_publish_rate: 100.0
     action_monitor_rate: 20.0
     allow_partial_joints_goal: false
+
     constraints:
       stopped_velocity_tolerance: 0.01
-      goal_time: 0.0
+      goal_time: 0.5
 
 hand_controller:
   ros__parameters:
     joints:
-      # Index finger: spread, MCP, PIP, DIP
       - FFJ4
       - FFJ3
       - FFJ2
       - FFJ1
-      # Middle finger: spread, MCP, PIP, DIP
       - MFJ4
       - MFJ3
       - MFJ2
       - MFJ1
-      # Ring finger: spread, MCP, PIP, DIP
       - RFJ4
       - RFJ3
       - RFJ2
       - RFJ1
-      # Little finger: metacarpal, spread, MCP, PIP, DIP
       - LFJ5
       - LFJ4
       - LFJ3
       - LFJ2
       - LFJ1
-      # Thumb: rotation, abduct, flex1, flex2, tip
       - THJ5
       - THJ4
       - THJ3
       - THJ2
       - THJ1
+
     command_interfaces:
       - position
+
     state_interfaces:
       - position
       - velocity
+
     state_publish_rate: 100.0
     action_monitor_rate: 20.0
     allow_partial_joints_goal: true
+
     constraints:
       stopped_velocity_tolerance: 0.05
-      goal_time: 0.0
+      goal_time: 0.5
