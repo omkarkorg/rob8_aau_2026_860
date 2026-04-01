@@ -15,6 +15,24 @@ To run this project, you will need the following environment:
 
 * **Simulator:** Gazebo Harmonic
 
+* **Packages:** `ros_gz_sim`, `ros_gz_bridge`, `robot_state_publisher`, `xacro`, `controller_manager`, `ros2_control`, `joint_state_broadcaster`, `joint_trajectory_controller`
+
+
+## 📁 Project Structure
+Here is a brief overview of what is included in the src package:
+
+/launch: Contains the ROS 2 launch files to start the simulation.
+
+/urdf: Contains the robot descriptions and XACRO files.
+
+/worlds: Contains the custom Gazebo environment.
+
+/config: Contains the controller for the arm and the hand
+
+/meshes: Contains the 3D files for Shadow Hand
+
+/peg_insertion: Contains the Impedance Controller Code
+
 
 ## ⚙️ Building the Workspace
 Since this repository only contains the `src` folder, please follow these steps to build the workspace on your local machine:
@@ -49,18 +67,3 @@ Once built, you can launch the simulation using the following commands.
    ```bash
    ros2 launch peg_insertion sim_launch.py
 
-
-## 📁 Project Structure
-Here is a brief overview of what is included in the src package:
-
-/launch: Contains the ROS 2 launch files to start the simulation.
-
-/urdf: Contains the robot descriptions and XACRO files.
-
-/worlds: Contains the custom Gazebo environment.
-
-/config: Contains the controller for the arm and the hand
-
-/meshes: Contains the 3D files for Shadow Hand
-
-/peg_insertion: Contains the Impedance Controller Code
