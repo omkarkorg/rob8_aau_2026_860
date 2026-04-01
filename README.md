@@ -14,7 +14,8 @@ To run this project, you will need the following environment:
 
 * **Simulator:** Gazebo Harmonic
 
-* **Additional Packages:** 
+
+<img width="700" height="700" alt="env_with_arm" src="https://github.com/user-attachments/assets/52972fb6-0692-41f6-8e16-7616a2f8aca6" />
 
 
 ## ⚙️ Building the Workspace
