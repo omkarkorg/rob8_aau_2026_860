@@ -2,9 +2,10 @@
 
 
 ## 📖 Overview
-This is a mini project of AAU ROB8 2026 student from group 860. This project carry out an Anisotropic Impedance Control framework for a UR5 manipulator in Gazebo Harmonic, transitioning from blind position control to a  interaction-based model. While presently validated through successful peg-in-hole simulations, the framework is theoretically designed to integrate Sequential Monte Carlo estimation for future high level state reasoning.
+This is a mini project of AAU ROB8 2026 student from group 860. This project carries out an Anisotropic Impedance Control framework for a UR5 arm with a Shadow Hand Manipulator in Gazebo Harmonic, transitioning from blind position control to a  interaction-based model. While presently validated through successful peg-in-hole simulations, the framework is theoretically designed to integrate Sequential Monte Carlo estimation for future high level state reasoning.
 
 <img width="700" height="700" alt="env_with_arm" src="https://github.com/user-attachments/assets/52972fb6-0692-41f6-8e16-7616a2f8aca6" />
+
 
 ## 🛠️ Prerequisites
 To run this project, you will need the following environment:
@@ -35,14 +36,14 @@ Here is a brief overview of what is included in the src package:
 
 
 ## ⚙️ Building the Workspace
-Since this repository only contains the `src` folder, please follow these steps to build the workspace on your local machine:
+Please follow these steps to build the workspace on your local machine:
 
 1. **Create a workspace and clone the repository:**
    ```bash
    mkdir -p ~/peg_in_hole_ws/
    cd ~/peg_in_hole_ws/
    # Clone this repository
-   Download and extract the src folder here
+   Download and extract the `src` folder here
 
 2. **Install Dependencies:**
    ```bash
