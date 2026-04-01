@@ -32,6 +32,7 @@ Since this repository only contains the `src` folder, please follow these steps 
    ```bash
    cd ~/simulation_ws
    rosdep update
+   rosdep install --from-paths src --ignore-src -r -y
 
 3. **Build the project:**
    ```bash
