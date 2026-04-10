@@ -4,7 +4,7 @@
 ## 📖 Overview
 This is a mini project of AAU ROB8 2026 student from group 860. This project carries out an Anisotropic Impedance Control framework for a UR5 arm with a Shadow Hand Manipulator in Gazebo Harmonic, transitioning from blind position control to a  interaction-based model. While presently validated through successful peg-in-hole simulations, the framework is theoretically designed to integrate Sequential Monte Carlo estimation for future high level state reasoning.
 
-<img width="700" height="700" alt="env_with_arm" src="https://github.com/user-attachments/assets/52972fb6-0692-41f6-8e16-7616a2f8aca6" />
+<img width="1000" height="1000" alt="Screenshot from 2026-04-10 17-24-35" src="https://github.com/user-attachments/assets/70f4a5d3-52ea-4e47-980c-35727fdfd358" />
 
 
 ## 🛠️ Prerequisites
