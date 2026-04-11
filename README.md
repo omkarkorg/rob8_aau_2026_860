@@ -47,7 +47,7 @@ Please follow these steps to build the workspace on your local machine:
 
 2. **Install Dependencies:**
    ```bash
-   cd ~/simulation_ws
+   cd ~/peg_in_hole_ws
    rosdep update
    rosdep install --from-paths src --ignore-src -r -y
 
